@@ -1,0 +1,891 @@
+/*
+ Theme Name: Yamidoo Child Theme
+ Template: yamidoo
+ */
+
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300,400,700);
+@import url(https://fonts.googleapis.com/css2?family=Aleo:wght@300,400,700);
+
+/************* USEFUL STUFF ************/
+/* dirtyblue #0b92b4      */
+/* lightdirtyblue #ddddee */
+/* wbwblue #00adf0        */
+/* brightblue #00cbf8     */
+/* verybrightblue #00e0ff */
+/* veryverybrightblue #77efff */
+/*
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+*/
+/***************************************/
+
+.widget a {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+}
+
+body.custom-background {
+  background-image: none !important;
+}
+
+#articles, 
+#sidebar {
+  width: 48.75%;
+}
+
+#sidebar .widget {
+  margin: 0px 20px 0px 20px;
+}
+
+#articles {
+  padding-left: 10px;
+}
+
+#sidebar {
+  padding-right: 10px;
+}
+
+#content-wrap {
+  padding: 0px 0px 0px 0px;
+}
+
+.wbw-front-podcasts {
+  text-align: center;
+}
+
+.wbw-front-featuredvideo {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 60%;
+  width: 100%;
+}
+
+.wbw-front-featuredvideo iframe {
+  height: 100% !important;
+  position: absolute;
+  top: 0; left: 0;
+  width: 100% !important;
+}
+
+.wbw-front-podcasts img {
+  width: 200px;
+  padding: 0px 10px 0px 10px;
+}
+
+/* styles for new topside bar including widgets */
+
+.wbw-topside {
+  float: right;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.wbw-topside-table {
+  color: #000000;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+}
+
+.wbw-topside-tr {
+  width: 300px;
+  height: 40px;
+}
+
+.wbw-topside-td {
+  background-color: #ffffff;
+  text-align: right;
+  border-style: solid;
+  border-top-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  border-left-width: 0px;
+  border-color: #074772;
+  vertical-align: middle;
+  padding: 0px 0px 0px 0px;
+  height: 40px;
+}
+
+.wbw-topside-td-translate,
+.wbw-topside-td-signup,
+.wbw-topside-td-search {
+  text-align: right;
+}
+
+.wbw-topside-td-translate {
+  border-top-width: 0px;
+}
+
+.wbw-topside-td-translate-icon {
+  border-top-width: 0px;
+}
+  
+.wbw-topside-td-search-icon {
+  border-top-width: 0px;
+}
+  
+.wbw-topside-td-social {
+  border-bottom-width: 0px;
+}
+  
+@media screen and (max-width: 979px) {
+  .wbw-topside-table {
+   display: none;
+  }
+}
+
+.wbw-topside-table i {
+  color: #074772;
+  padding-right: 10px;
+  font-size: 22px;
+}
+
+.wbw-topside-td-signup-icon i {
+  margin-top: 3px;
+}
+  
+.wbw-topside-td-translate-icon i {
+  margin-top: 3px;
+  padding-right: 2px;
+  font-size: 32px;
+}
+
+.wbw-topside-table .is-link-container {
+  display: none;
+}
+
+.wbw-topside-td-search .is-search-form {
+  display: inline;
+  padding-right: 0px;
+}
+
+.is-form-style input.is-search-input {
+  text-align: right;
+  border-width: 0px !important;
+}
+
+.wbw-topside-td-translate #gtranslate-2 {
+  display: inline;
+  padding: 0px 0px 0px 0px;
+  border-width: 0px;
+}
+
+.wbw-topside-table a { 
+  color: #000000;
+}
+
+.wbw-topside-table select {
+  vertical-align: top;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  width: 90px;
+  height: 22px;
+  padding: 0px 0px 0px 0px;
+  margin-top: 8px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 0px;
+  border-width: 0px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+.wbw-topside-table option {
+  border-width: 0px;
+}
+
+.wbw-topside-table input::placeholder  {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+.wbw-topside-table input {
+  width: 70px;
+  height: 5px;
+  border-width: 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: #ffffff;
+}
+
+/* front page - myths why how */
+
+.wbw-mwhlist {
+  text-align: left;
+}
+
+.wbw-mythswhyhow-table {
+  font-size: 1em;
+  line-height: 1em;
+  margin-bottom: 0px;
+}
+
+.wbw-mythswhyhow h1 {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.wbw-mythswhyhow h2 {
+  padding: 20px 10px 20px 10px;
+  font-size: 1.6em;
+  line-height: 1em;
+}
+
+.wbw-mythswhyhow ul {
+  text-align: left;
+  list-style-position: inside;
+}
+
+.wbw-mythswhyhow-table {
+  width: 100%;
+}
+
+.wbw-mythswhyhow-td {
+  text-align: center;
+  border-collapse: separate;
+  width: 33%;
+  padding: 8px 20px 20px 20px;
+  color: #aae7d7;
+  background-color: #222222;
+  line-height: 1em;
+  border-width: 9px;
+  border-style: solid;
+  border-color: #ffffff;
+  font-family: 'Quicksand', sans-serif; 
+  font-weight: 600;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+/* menus */
+
+ul.dropdown a {
+  padding: 0px 0px 0px 0px;
+}
+
+#mainmenu ul.dropdown li {
+  padding: 0px 0px 0px 0px;
+}
+
+#mainmenu {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#menu {
+  display: table;
+}
+
+#menu ul {
+  visibility: hidden;
+  z-index:100;
+  width: 100%;
+}
+
+#menu li {
+  text-align: center;
+  display: table-cell;
+  padding: 12px 0px 8px 0px;
+  width: 14.281%;
+  color: #074772;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #ffffff;
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 16px;
+  /*text-transform: uppercase;*/
+  font-weight: 500;
+}
+
+#menu li a {
+  color: #074772;
+  font-weight: 700;
+}
+
+#menu li:hover a {
+  color: #0B92B4;
+}
+
+#menu li:hover a, 
+#nav li:hover a { 
+  color:#000000; 
+}
+
+/* responsive columns for store */
+
+.wbw-responsive-column {
+  background-color: white;
+  text-align: center;
+  width: 47%; 
+  padding: 0 10px 0 10px; 
+  float: left;
+}
+
+.wbw-responsive-column-left {
+  background-color: white;
+  text-align: left;
+  width: 47%; 
+  padding: 0px 0px 0px 0px; 
+  float: left;
+}
+
+@media screen and (max-width: 980px) {
+  .wbw-responsive-column {
+    width: 100%; 
+  }
+  .wbw-responsive-column-left {
+    width: 100%; 
+  }
+}
+
+/* right justified page template (for Farsi and other rightward languages) */
+
+.wbw-right-justified {
+  text-align: right;
+}
+
+/* general purpose WBW blue text */
+
+.boldblue {
+  font-weight: bold;
+  color: #0b92b4;
+}
+
+/* animated ribbon */
+
+.ribbonflow {
+  width: 600px;
+  overflow: hidden;
+  padding: 10px 0px 10px 0px;
+}
+
+.ribbon {
+  width: 2000px;
+  display: table;
+}
+
+.ribbon-box {
+  margin: 0px 10px 0px 10px;
+  position: relative;
+  -webkit-animation: mymove 12s infinite;
+  animation: mymove 12s infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  width: 150px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ribbon-box img {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+@-webkit-keyframes mymove {
+  0% {right: 0px;}
+  100% {right: 1450px;}
+}
+
+@keyframes mymove {
+  0%   {right: 0px;}
+  100% {right: 1450px;}
+}
+
+#can-form-area-get-updates-for-nowar2020 {
+  margin: 0 auto;
+  width: 600px;
+}
+
+#full-width-main {
+  float: left;
+  width: 65%;
+}
+
+#full-width-sidebar {
+  float: left;
+  width: 30%;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 980px) {
+  #can-form-area-get-updates-for-nowar2020 {
+     width: 300px;
+  }
+
+  #full-width-main {
+    width: 100%;
+  }
+
+  #full-width-sidebar {
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
+/* new styles for chapter pages */
+
+#chapter-top {
+  padding-top: 12px;
+}
+
+#chapter-about {
+  float: left;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-color: #d2d2d2;
+}
+
+#chapter-about h1 {
+  color: #074772;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#chapter-clear {
+  clear: both;
+}
+
+#chapter-contact h1 {
+  margin-top: 10px;
+  color: #ff0040;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#chapter-events {
+  float: left;
+  margin-top: 0px;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-color: #d2d2d2;
+}
+
+@media screen and (min-width: 980px) {
+  #chapter-about {
+    width: 55%;
+  }
+ 
+  #chapter-events {
+    float: right;
+    width: 40%;
+    margin-left: 30px;
+    border-bottom-width: 0px;
+  }
+}
+
+#chapter-events h1 {
+  color: #ff8000;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
+/* custom promo using Custom HTML Widget in "Sidebar (half right)" on page template */
+
+.wbw_custom_widget_page_promo {
+  padding: 10px;
+  background-color:#e6eeff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-style: solid;  
+  border-color: #b3cbff;  
+  border-width: 1px;
+}
+
+.wbw_custom_widget_page_promo img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* these style changes were recovered from custom.css after WPZOOM theme upgrade October 2018 */
+
+.text-slider {
+  background: #F7F7F7;
+  padding: 1%;
+  width: 40%;
+  float: left;
+  height: 280px;
+  margin-left: 1%;
+}
+
+#logo {
+  float: left;
+  padding: 0px 0px 0px 0px;
+  margin: 15px 0px 0px 15px;
+  border-top-width: 0px;
+}
+
+#logo h1 a {
+  color: #0B92B4;
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+a {
+  color: #0B92B4;
+  outline: none;
+  text-decoration: none;
+}
+
+#feature {
+  margin: 0 0 15px 0;
+  background: #F1F1F1;
+  position: relative;
+}
+
+.post p {
+  line-height: 1.5;
+}
+
+#articles .head_title, h3.archive_title {
+  background-color: #EEEEEE;
+  border-top: 3px solid #EEEEEE;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 8px 0 8px 10px;
+  margin: 0 0 15px;
+  text-transform: uppercase;
+}
+
+.widget h3.title {
+  background-color: #EEEEEE;
+  border-top: 3px solid #EEEEEE;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 8px 0 8px 10px;
+  margin: 0 0 10px;
+}
+
+h3 a {
+  color: #0B92B4;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Aleo", serif;
+}
+
+.article h2.title a {
+  color: #0B92B4;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+/* these style changes were added to fix problems resulting from WPZOOM theme upgrade October 2018 */
+
+#header #search {
+  display: none;
+}
+
+.article {
+  border-bottom: 0px;
+}
+
+#content-wrap .hr {
+  border-top: 0px;
+}
+
+#main-wrap {
+  margin-top: 0px;
+}
+
+/* 2020redesign */
+#header {
+  /*padding: 0px 20px;*/
+  padding: 0px 0px;
+}
+/* 2020redesign */
+
+/* end of style changes for theme upgrade fixes */
+
+.similar-posts-ontology {
+  width: 100%;
+  text-align: center;
+}
+
+.similar-posts-table {
+  display: table; 
+}
+
+.similar-posts-tr {
+  display: table-row; 
+}
+
+.similar-posts-td {
+  padding-left: 2px;
+  padding-right: 2px;
+  display: table-cell; 
+}
+
+@media screen and (max-width: 980px) {
+  .similar-posts-table {
+    text-align: center;
+    margin: 0 auto;
+    width: 290px;
+    display: block; 
+  }
+
+  .similar-posts-tr {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: block; 
+  }
+
+  .similar-posts-td {
+    text-align: center;
+    margin: 0 auto;
+    display: block; 
+  }
+}
+
+
+.related-post-header {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+.related-post-title {
+  width: 290px;
+  min-height: 40px;
+  font-family: 'Aleo', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.1em;
+  padding-top: 10px;
+  padding-right: 4px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+}
+
+.related-post-thumb {
+  padding-bottom: 4px;
+  width: 290px;
+}
+
+.article-categories,
+.article-categories a {
+  color: #074772;
+  font-family: 'Aleo', sans-serif;
+  font-variant: small-caps;
+  font-size: 1.1em;
+  padding-bottom: 4px;
+}
+
+/* 2020redesign @media screen and (max-width: 980px) { */
+  #page-wrap {         
+    width: 100% !important;
+  }
+  .text-slider {
+    width: 100% !important;
+    float: none !important;
+  }
+/*} */
+
+@media screen and (max-width: 980px) {
+  #panes { 
+    height:195px; 
+  }
+
+  #navi img { 
+    margin-bottom:4px; 
+  }
+
+  .cover iframe,
+  .cover object,
+  .cover embed { 
+     width:333px; 
+     height:195px; 
+  }
+}
+ 
+@media screen and (max-width: 980px) {
+  #topmenu { float:left;text-align:left; margin-left:0; margin-top:15px;}
+  #topmenu { display:block; width:100%; margint-bottom:15px;}
+  #articles { width:100%;}
+  #main { width:100%;}
+
+  #navi ul {display:none;}
+
+  #logo h1 a { font-size:22px; }
+
+  #panes { height:auto; }
+
+  #panes span.cover {
+	position: relative;   overflow: hidden; width: 100%; max-width: 100%; height:auto;
+  }
+
+  #panes img { width:100%; max-width:100%; height:auto; }
+
+  #panes div { position:relative; height:auto; }
+
+  #panes .post-info { height:auto; width:94%; padding:2%; float:left;}
+
+  ul.dropdown li {text-transform:none; font-size:12px;}
+
+  .recent-post .post-content {overflow:visible; }
+  .recent-post .post-thumb { width:100%; margin-right:0;}
+  .recent-post .post-thumb img { width:100%;}
+
+  #respond .form_fields { width:97%; margin:0; }
+  #respond .comment-form-comment {width:99%; }
+  #respond .form_fields input { width:98%; }
+  .children #respond { margin-right:0; }
+
+  #sidebar { width:100%; margin-left:0%;}
+  #sidebar .widget {width:100%; margin-right:0%; float:none; }
+
+  #footer div.column { margin-right: 0;  width: 94%; }
+  #footer .column .widget { width:100%; }
+}
+
+div.navigation {
+  font-family: 'Aleo', sans-serif;
+  font-size: 1.1em;
+}
+
+.archive-pagination {
+  padding-top: 15px;
+  font-family: 'Aleo', sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.archive-pagination .page-numbers {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+td.archive-post-image {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+td.archive-post-image img {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 980px) {
+  td.archive-post-image img {
+    width: 180px;
+  }
+}
+
+td.archive-post-text {
+  width: 100%;
+}
+ 
+.archive-post-title {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.archive-post-datetime {
+  padding-top: 6px;
+}
+
+.archive-post-summary {
+  padding-top: 6px;
+}
+
+#footer {
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 14px;
+  color: #074772;
+}
+
+#footer .widget-area {
+  border-bottom: 0px;
+}
+
+.post-meta,
+.post .post-meta,
+span.post-meta,
+.post span.post-meta {
+  border-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#glt-translate-trigger {
+  font-family: 'Quicksand', sans-serif; 
+}
+  
+span.category {
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 1em;
+  color: #074772;
+}
+
+span.category a {
+  color: #074772;
+}
+
+.slicknav_nav .slicknav_row, 
+.slicknav_nav a {
+  font-family: 'Quicksand', sans-serif; 
+}
+
+ul.dropdown a {
+  color: #074772;
+}
+
+#menu {
+  border-top: 0px;
+  border-bottom: 0px;
+  border-top: 2px solid #074772;
+  /*border-bottom: 2px solid #074772;*/
+  padding: 7px 0px 0px 0px;
+}
+
+#anything {
+  font-family: 'Aleo', sans-serif;
+}
+
+h3 a,
+.column h3 a,
+.column_first h3 a {
+  font-family: 'Aleo', sans-serif;
+  font-weight: 700;
+  color: #0B92B4;
+}
+
+#articles .head_title,
+.widget h3.title,
+h3.archive_title {
+  color: #074772;
+  font-family: 'Quicksand', sans-serif !important; 
+  font-weight: 600;
+  font-size: 1.1em !important;
+  background-color: #ddddee !important;
+  border-top: 0px !important;
+  padding: 8px 0px 3px 10px !important;
+}
+  
+.article h2.title {
+  font-family: 'Aleo', sans-serif;
+}
+
+.post h1.title,
+.entry h1,
+.entry h2,
+.entry h3,
+.entry h4,
+.entry h5,
+.entry h6 {
+  font-family: 'Aleo', sans-serif;
+}
+
+.wbwdevspace {
+  text-align: center;
+  font-color: gray;
+  padding: 80px 0px 80px 0px;
+}
+
