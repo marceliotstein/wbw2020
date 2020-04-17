@@ -125,6 +125,7 @@ body.custom-background {
 }
   
 .wbw-topside-td-social {
+  padding-top: 4px;
   border-bottom-width: 0px;
 }
   
@@ -274,7 +275,10 @@ ul.dropdown a {
 }
 
 #menu {
+  border-top: 2px solid #074772;
+  border-bottom: 2px solid #074772;
   display: table;
+  height: 40px;
 }
 
 #menu ul {
@@ -285,8 +289,9 @@ ul.dropdown a {
 
 #menu li {
   text-align: center;
+  vertical-align: middle;
   display: table-cell;
-  padding: 12px 0px 8px 0px;
+  padding: 0px;
   width: 14.281%;
   color: #074772;
   border-width: 3px;
@@ -294,7 +299,6 @@ ul.dropdown a {
   border-color: #ffffff;
   font-family: 'Quicksand', sans-serif; 
   font-size: 16px;
-  /*text-transform: uppercase;*/
   font-weight: 500;
 }
 
@@ -835,14 +839,6 @@ span.category a {
 
 ul.dropdown a {
   color: #074772;
-}
-
-#menu {
-  border-top: 0px;
-  border-bottom: 0px;
-  border-top: 2px solid #074772;
-  /*border-bottom: 2px solid #074772;*/
-  padding: 7px 0px 0px 0px;
 }
 
 #anything {
