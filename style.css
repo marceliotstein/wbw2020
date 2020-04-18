@@ -7,18 +7,20 @@
 @import url(https://fonts.googleapis.com/css2?family=Aleo:wght@300,400,700);
 
 /************* USEFUL STUFF ************/
-/* dirtyblue #0b92b4      */
-/* lightdirtyblue #ddddee */
-/* wbwblue #00adf0        */
-/* brightblue #00cbf8     */
-/* verybrightblue #00e0ff */
-/* veryverybrightblue #77efff */
+/* wbwdarkblue  #074772 */
+/* wbwblue      #0892b4 */
+/* wbwlightblue #00adf0 */
 /*
   border-style: solid;
   border-width: 1px;
   border-color: black;
 */
 /***************************************/
+
+a {
+  color: #074772;
+  text-decoration: none;
+}
 
 .widget a {
   font-family: "PT Sans", sans-serif;
@@ -78,7 +80,7 @@ body.custom-background {
 .wbw-topside {
   float: right;
   padding: 0px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .wbw-topside-table {
@@ -215,47 +217,28 @@ body.custom-background {
   text-align: left;
 }
 
-.wbw-mythswhyhow-table {
-  font-size: 1em;
-  line-height: 1em;
-  margin-bottom: 0px;
+.wbw-mythswhyhow {
+  padding: 0px 0px 40px 20px;
+  font-family: 'Quicksand', sans-serif; 
+  max-width: 1000px;
 }
 
 .wbw-mythswhyhow h1 {
-  padding-top: 15px;
-  text-align: center;
+  font-size: 1.6em;
 }
 
 .wbw-mythswhyhow h2 {
-  padding: 20px 10px 20px 10px;
-  font-size: 1.6em;
-  line-height: 1em;
+  padding-top: 10px;
+  font-size: 1.3em;
 }
 
-.wbw-mythswhyhow ul {
-  text-align: left;
-  list-style-position: inside;
+.wbw-mythswhyhow p {
+  font-family: 'PT Sans', sans-serif; 
+  font-size: 1.0em;
 }
 
-.wbw-mythswhyhow-table {
-  width: 100%;
-}
-
-.wbw-mythswhyhow-td {
-  text-align: center;
-  border-collapse: separate;
-  width: 33%;
-  padding: 8px 20px 20px 20px;
-  color: #aae7d7;
-  background-color: #222222;
-  line-height: 1em;
-  border-width: 9px;
-  border-style: solid;
-  border-color: #ffffff;
-  font-family: 'Quicksand', sans-serif; 
-  font-weight: 600;
-  font-size: 17px;
-  font-weight: normal;
+.wbw-mythswhyhow a {
+  color: #000000;
 }
 
 /* menus */
@@ -270,8 +253,8 @@ ul.dropdown a {
 
 #mainmenu {
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #menu {
@@ -279,6 +262,7 @@ ul.dropdown a {
   border-bottom: 2px solid #074772;
   display: table;
   height: 40px;
+  padding: 0px 0px 0px 0px;
 }
 
 #menu ul {
@@ -353,7 +337,7 @@ ul.dropdown a {
 
 .boldblue {
   font-weight: bold;
-  color: #0b92b4;
+  color: #0892b4;
 }
 
 /* animated ribbon */
@@ -518,7 +502,7 @@ ul.dropdown a {
 #logo {
   float: left;
   padding: 0px 0px 0px 0px;
-  margin: 15px 0px 0px 15px;
+  margin: 20px 0px 0px 20px;
   border-top-width: 0px;
 }
 
@@ -529,10 +513,6 @@ ul.dropdown a {
   line-height: 1.3;
 }
 
-a {
-  color: #0B92B4;
-  outline: none;
-  text-decoration: none;
 }
 
 #feature {
