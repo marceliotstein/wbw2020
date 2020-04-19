@@ -17,6 +17,11 @@
 */
 /***************************************/
 
+.wbw-main-theater {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 a {
   color: #074772;
   text-decoration: none;
@@ -31,21 +36,29 @@ body.custom-background {
   background-image: none !important;
 }
 
-#articles, 
+#articles {
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+  width: 49%;
+}
+
 #sidebar {
-  width: 48.75%;
+  width: 49%;
 }
 
 #sidebar .widget {
-  margin: 0px 20px 0px 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
 }
 
 #articles {
-  padding-left: 10px;
+  margin-right: 10px;
 }
 
 #sidebar {
-  padding-right: 10px;
+  margin-left: 10px;
 }
 
 #content-wrap {
@@ -218,7 +231,7 @@ body.custom-background {
 }
 
 .wbw-mythswhyhow {
-  padding: 0px 0px 40px 20px;
+  padding: 0px 0px 30px 20px;
   font-family: 'Quicksand', sans-serif; 
   max-width: 1000px;
 }
