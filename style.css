@@ -17,8 +17,18 @@
 */
 /***************************************/
 
-a {
-  text-decoration: none;
+.n2-ss-margin {
+  margin-bottom: 0px !important;
+}
+
+.wbw-front-articles-image img {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0892b4;
+}
+
+
+.wbw-front-articles-text h2.title {
 }
 
 .wbw-front-articles-table td {
@@ -53,7 +63,8 @@ a {
 }
 
 .article h2.title a {
-  color: #0B92B4;
+  text-decoration: none;
+  color: black;
   font-size: 30px;
   font-weight: 500;
 }
@@ -276,7 +287,7 @@ body.custom-background {
 
 .wbw-mythswhyhow {
   margin-top: 0px;
-  padding: 0px 0px 40px 20px;
+  padding: 0px 0px 30px 20px;
   font-family: 'Quicksand', sans-serif; 
   max-width: 1000px;
 }
