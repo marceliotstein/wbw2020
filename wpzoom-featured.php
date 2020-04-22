@@ -21,3 +21,6 @@
 <div class="wbw-frontvideo">
   <?php echo do_shortcode('[do_widget id=custom_html-18]'); ?>
 </div>
+<div class="wbw-resource-center">
+  RESOURCE/EDUCATION CENTER SECTION GOES HERE
+</div>
