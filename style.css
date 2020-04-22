@@ -17,6 +17,47 @@
 */
 /***************************************/
 
+a {
+  text-decoration: none;
+}
+
+.wbw-front-articles-table td {
+  vertical-align: middle;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+
+.wbw-front-articles-table td .post-thumb {
+  margin-right: 0px;
+}
+
+.wbw-frontvideo {
+  padding: 0px 20px 20px 20px;
+}
+
+.wbw-frontvideo iframe {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #074772;
+}
+
+.wbw-frontvideo td.wbw-video-text {
+  padding: 0px 100px 0px 100px;
+  vertical-align: middle;
+  font-family: 'Aleo', sans-serif;
+  font-size: 1.7em;
+}
+
+.article h2.title {
+  font-family: 'Aleo', sans-serif;
+}
+
+.article h2.title a {
+  color: #0B92B4;
+  font-size: 30px;
+  font-weight: 500;
+}
+
 .wbw-main-theater {
   padding-left: 20px;
   padding-right: 20px;
@@ -37,36 +78,30 @@ body.custom-background {
 }
 
 #articles {
-  border-style: solid;
-  border-width: 1px;
-  border-color: green;
-  width: 49%;
-}
-
-#sidebar {
-  width: 49%;
-}
-
-#sidebar .widget {
-  border-style: solid;
-  border-width: 1px;
-  border-color: orange;
-}
-
-#articles {
+  width: 68%;
   margin-right: 10px;
 }
 
 #sidebar {
+  padding: 0px 30px 0px 30px;
+  width: 25%;
   margin-left: 10px;
+}
+
+#sidebar .widget {
+  padding: 6px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 9px;
 }
 
 #content-wrap {
   padding: 0px 0px 0px 0px;
 }
 
-.wbw-front-podcasts {
-  text-align: center;
+.wbw-front-article-topics {
+  padding: 30px 0px 30px 0px;
 }
 
 .wbw-front-featuredvideo {
@@ -83,9 +118,18 @@ body.custom-background {
   width: 100% !important;
 }
 
+.wbw-front-podcasts {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 .wbw-front-podcasts img {
-  width: 200px;
-  padding: 0px 10px 0px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  text-align: center;
+  width: 80%;
+  margin: 20px 10px 20px 10px; 
 }
 
 /* styles for new topside bar including widgets */
@@ -231,7 +275,8 @@ body.custom-background {
 }
 
 .wbw-mythswhyhow {
-  padding: 0px 0px 30px 20px;
+  margin-top: 0px;
+  padding: 0px 0px 40px 20px;
   font-family: 'Quicksand', sans-serif; 
   max-width: 1000px;
 }
@@ -549,14 +594,20 @@ ul.dropdown a {
   text-transform: uppercase;
 }
 
+#sidebar .widget {
+  margin-bottom: 30px;
+}
+
 .widget h3.title {
-  background-color: #EEEEEE;
-  border-top: 3px solid #EEEEEE;
-  font-family: "Aleo", serif;
-  font-size: 16px;
-  font-weight: normal;
-  padding: 8px 0 8px 10px;
-  margin: 0 0 10px;
+  background-color: #00adf0;
+  border-top-color: #ffffff;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.7em;
+  font-weight: 700;
+  padding: 12px 12px 12px 12px;
+  color: white;
 }
 
 h3 a {
@@ -564,12 +615,6 @@ h3 a {
   font-size: 18px;
   font-weight: normal;
   font-family: "Aleo", serif;
-}
-
-.article h2.title a {
-  color: #0B92B4;
-  font-size: 22px;
-  font-weight: normal;
 }
 
 /* these style changes were added to fix problems resulting from WPZOOM theme upgrade October 2018 */
@@ -846,23 +891,6 @@ h3 a,
   color: #0B92B4;
 }
 
-#articles .head_title,
-.widget h3.title,
-h3.archive_title {
-  color: #074772;
-  font-family: 'Quicksand', sans-serif !important; 
-  font-weight: 600;
-  font-size: 1.1em !important;
-  background-color: #ddddee !important;
-  border-top: 0px !important;
-  padding: 8px 0px 3px 10px !important;
-}
-  
-.article h2.title {
-  font-family: 'Aleo', sans-serif;
-}
-
-.post h1.title,
 .entry h1,
 .entry h2,
 .entry h3,

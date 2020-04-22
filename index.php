@@ -15,9 +15,6 @@ wp_reset_query();
 		
 		<div class="wbw-main-theater">
 		  <div id="articles">
-	
-			<h3 class="head_title"><?php echo option::get('recent_title'); ?></h3>
-				
  			<?php
 			global $query_string; // required
 
